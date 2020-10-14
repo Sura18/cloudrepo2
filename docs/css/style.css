@@ -1,0 +1,30 @@
+*{
+	padding: 2px;
+    margin: 3px;
+	background-image: url("gambar2.jpeg");
+	position:center;
+	justify-content: center;
+	align-items: center;
+}
+section{
+	text-align: center;
+	padding: 2px 0;
+	color:skyblue;
+    margin-bottom: 10px;
+}
+label{
+	font-size: 11pt;
+}
+.form{
+    margin: auto;
+    color:black;
+	word-spacing: 2px;
+	line-height: 25px;
+	text-align: justify;
+	height: fit-content;
+	width: fit-content;
+}
+.input{
+	width: fit-content;
+	height: fit-content;
+}

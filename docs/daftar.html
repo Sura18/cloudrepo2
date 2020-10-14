@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Selamat Datang di Halaman Registrasi
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+                
+    </head>
+    <body>
+    
+         
+        <section >
+            <form method="post" class="form">
+                <fieldset>
+                    <legend text-align="center">Silahkan Isi Disini</legend>
+                        <div class="input">
+                            <label>Nama Lengkap</label> <br>
+                            <input type="text" name="nama" placeholder="Masukkan Nama">
+                        </div>
+                        <div class="input">
+                            <label>Jenis Kelamin </label> <br>
+                            <label><input type="radio" name="jenis_kelamin" value="laki-laki">Laki-Laki</label>
+                            <label><input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</label>
+                        </div>
+                        <div class="input">
+                            <label>Agama </label>
+                            <div class="custum">
+                                <select name="agama">
+                                    <option value="islam">Islam</option>
+                                    <option value="kristen">Kristen</option>
+                                    <option value="budha">Budha</option>
+                                    <option value="hindu">Hindu</option>
+                                    <option value="konghucu">konghucu</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <label>Tempat Tanggal Lahir </label>
+                            <input type="text" name="tempat_lahir" placeholder="Masukkan Tempat Lahir">
+                            <input type="date" name="tanggal">
+                        </div>
+                        <div class="input">
+                            <label>Email </label>
+                            <input type="email" name="email" placeholder="@example.com">
+                        </div>
+                        <div>
+                            <label>Alamat</label>
+                            <textarea name="Alamat" id="" cols="30" rows="8" placeholder="Tulis Alamat Lengkap disini"></textarea>
+                        </div>
+                        <div class="input">
+                            <label>Upload CV</label>
+                            <input type="file">
+                        </div>
+                        <div class="input">
+                            <center><input type="submit" name="submit" value="Daftar"></center>
+                        </div>
+                        
+                </fieldset>
+            </form>  
+        </section> 
+       
+    </body>
+</html>
